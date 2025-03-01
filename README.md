@@ -26,20 +26,26 @@ A simple, full-stack note-taking app built with **React.js** for the frontend an
 
 ### 1️⃣ Clone the Repository
 
+``` 
 git clone https://github.com/asasin235/todo-app-mar-2025.git
+
 cd note-taking-app
+```
 
 2️⃣ Install Dependencies
 
-npm install
+```npm install```
+
 
 3️⃣ Setup Firebase
-	•	Go to Firebase Console
+	-	Go to Firebase Console
+
 	•	Create a new project
 	•	Enable Authentication → Email & Password Sign-in
 	•	Enable Firestore Database
 	•	Get your Firebase Config and replace it in firebase.js:
 
+```
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
@@ -49,6 +55,7 @@ const firebaseConfig = {
   appId: "YOUR_APP_ID",
 };
 
+```
 4️⃣ Start the Project
 
 npm start
